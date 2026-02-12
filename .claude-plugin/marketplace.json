@@ -1,0 +1,21 @@
+{
+  "name": "needcaffeine-skills",
+  "owner": {
+    "name": "Vic Vijayakumar"
+  },
+  "metadata": {
+    "description": "Agent skills for Claude Code",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "creative-skills",
+      "description": "Collection of creative and diagramming skills including Excalidraw diagram generation and editing",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/excalidraw"
+      ]
+    }
+  ]
+}
